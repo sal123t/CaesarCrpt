@@ -18,6 +18,8 @@ int main()
 		"Error writing in file!", "File is empty!", "File wasn't closed" };
 	char FilePath[200];
 	int Key;
+	
+	SetDbgMemHooks();
 
 	while (C != '0')
 	{
